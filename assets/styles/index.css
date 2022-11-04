@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Sofia", sans-serif;
+    background: aqua;
+}
+
+#result{
+    background: red;
+    padding: 1rem;
+    height: 6rem;
+}
+
+#first_row{
+    display: flow-root;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.first_row_key{
+    width: calc(25% - 4px);
+    border-width: 0;
+    float: left;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+
+
