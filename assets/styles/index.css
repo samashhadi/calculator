@@ -8,7 +8,12 @@
 body {
     font-family: "Sofia", sans-serif;
     background: aqua;
-}
+    font-size: 3rem;
+    }
+
+input{
+        font-size: 3rem;
+    }
 
 .red {
     background-color: red;
@@ -21,7 +26,7 @@ body {
 #result {
     background: red;
     padding: 1rem;
-    height: 6rem;
+    height: 37.5%;
 }
 
 .row {
@@ -32,6 +37,7 @@ body {
     width: calc(25% - 4px);
     float: left;
     margin-inline: 2px;
+    height: 100%;
 
 }
 
@@ -65,6 +71,7 @@ body {
     width: calc(33.33% - 4px);
     margin-left: 2px;
     margin-right: 2px;
+    height:50%;
 }
 
 .key-33:nth-child(1) {
@@ -80,58 +87,41 @@ body {
 }
 
 
-.second_row {
-    display: flow-root;
-    padding-left: 2px;
-    padding-right: 2px;
+.plus{
+    height: 100%;
+    width: 100%;
+    
 }
 
-.second_row_key {
-    width: calc(25% - 4px);
-    border-width: 0;
+.eaqual{
+    height: 100%;
+    width: 100%;
+
+}
+
+.key-66{
     float: left;
+    width: calc(66.66% - 2px);
     margin-right: 2px;
-    margin-left: 2px;
+    height: 50%;
+   
+
+
 }
 
-#thied_row {
-    display: flow-root;
-    padding-left: 2px;
-    padding-right: 2px;
+
+.body-height{
+    height: 100vh;
+
+
 }
 
-.third_row_key {
-    width: calc(25% - 4px);
-    border-width: 0;
-    float: left;
-    margin-right: 2px;
-    margin-left: 2px;
+
+.row-18{
+    height: 12.5%;
 }
 
-#fourth_row {
-    display: flow-root;
-    padding-left: 2px;
-    padding-right: 2px;
-}
+.row-28{
+    height:25%;
 
-.fourth_row_key {
-    width: calc(25% - 4px);
-    border-width: 0;
-    float: left;
-    margin-right: 2px;
-    margin-left: 2px;
-}
-
-#fifth_row {
-    display: flow-root;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-.fifth_row_key {
-    width: calc(25% - 4px);
-    border-width: 0;
-    float: left;
-    margin-right: 2px;
-    margin-left: 2px;
 }
